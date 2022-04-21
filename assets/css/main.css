@@ -320,7 +320,7 @@ footer{
 
 iframe {
 	height: 25em;
-	width:40em;
+	width:100%;
 }
 
 *::-webkit-scrollbar {
