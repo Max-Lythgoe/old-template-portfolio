@@ -335,3 +335,30 @@ iframe {
     background-color: white;
     border-radius: 8px;
 }
+
+header {
+	border-bottom: solid 1rem;
+    border-image: linear-gradient(45deg, red, white) 1;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid red;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+	color: white;
+  }
