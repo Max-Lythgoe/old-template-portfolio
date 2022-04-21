@@ -2,7 +2,7 @@ $( document ).ready(function() {
                 
                 $("#about_scroll").fadeOut();   
                 $("#work_scroll").fadeOut();
-                $("#contact_scroll").fadeOut();
+                $("#skills_scroll").fadeOut();
 
                 $("#about").click(function(){
                     $("#index").fadeOut();
@@ -16,11 +16,11 @@ $( document ).ready(function() {
                     $('#work_left').addClass('animated slideInLeft');
                     $('#work_right').addClass('animated slideInRight');
                     });
-                $("#contact").click(function(){
+                $("#skills").click(function(){
                     $("#index").fadeOut();
-                    $("#contact_scroll").fadeIn();
-                    $('#contact_left').addClass('animated slideInLeft');
-                    $('#contact_right').addClass('animated slideInRight');
+                    $("#skills_scroll").fadeIn();
+                    $('#skills_left').addClass('animated slideInLeft');
+                    $('#skills_right').addClass('animated slideInRight');
                     });
                 
                 $(".back").click(function(){
