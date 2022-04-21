@@ -55,7 +55,7 @@ body{
     	.info{
 			font-family: "Crimson";
 			line-height: 28px;
-		    font-size: 16px;
+		    font-size: 22px;
 		    padding-top: 15px;
 		    padding-right: 50px;
 		}
@@ -105,14 +105,18 @@ p{
 	font-style: bold;
 }
 
+.logo > img {
+	width: 5em;
+}
+
 .logo h4{
 	font-family: 'Josefin Sans';
+	font-size: 400%;
 }
 
 
 footer{
 	padding: 22px 0 10px 0;
-	font-style: italic;
 	}
 
 
@@ -120,7 +124,6 @@ footer{
     width: 170px;    
     font-family: "Crimson";
     font-size: 17px;
-    font-style: italic;
     vertical-align: middle;
     text-align: center;
     display: block;
@@ -214,7 +217,7 @@ footer{
 	font-size: 20px;
 	color: gray;
 	line-height: 28px;
-	font-family: "Crimson";
+	font-family: "Josefin Sans";
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 40px;
@@ -295,8 +298,8 @@ footer{
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;
+	background-color: red;
+	border-color: red;
 }
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
 	color: #fff;
@@ -318,4 +321,17 @@ footer{
 iframe {
 	height: 25em;
 	width:40em;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: black;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 8px;
 }
