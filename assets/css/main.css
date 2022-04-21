@@ -202,15 +202,6 @@ footer{
 	color: red;
 }
 
-.page-title:after,.page-title:before{
-	content: '';
-	position: absolute;
-	height: 1px;
-	background-color: black;
-	left: 0;
-	margin: 2px;
-}
-
 .social{
 	padding-bottom: 15px;
 }
