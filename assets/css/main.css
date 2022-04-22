@@ -347,25 +347,33 @@ div.gallery {
 	border: 1px solid #ccc;
 	float: left;
 	width: 180px;
-  }
+}
   
-  div.gallery:hover {
+div.gallery:hover {
 	border: 1px solid red;
-  }
+}
   
-  div.gallery img {
+div.gallery img {
 	width: 100%;
 	height: auto;
-  }
+}
   
-  div.desc {
+div.desc {
 	padding: 15px;
 	text-align: center;
 	color: white;
-  }
+}
 
-  li {
+li {
 	  color: white;
 	  font-size: large;
+}
 
-  }
+a {
+	color: red;
+	font-size: 19px;
+}
+
+a:hover {
+	color: white;
+}
