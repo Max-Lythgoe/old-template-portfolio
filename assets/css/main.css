@@ -319,6 +319,10 @@ footer{
 	display: block;
 }
 
+#main-right {
+	overflow: auto;
+}
+
 iframe {
 	height: 25em;
 	width:100%;
